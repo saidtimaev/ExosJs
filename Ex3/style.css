@@ -1,0 +1,42 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+}
+
+.carre{
+
+    display: flex;
+    background-color:chartreuse;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+
+
+}
+
+
+.auTourDe{
+    display: block;
+}
+
