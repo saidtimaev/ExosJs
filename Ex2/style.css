@@ -1,0 +1,40 @@
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+
+.carre{
+
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    background-color: greenyellow;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 50px;
+    border: 2px solid gray;
+    font-family: 'Times New Roman';
+
+
+}
+
+.container div.active:first-child{
+    transform: rotate(360deg);
+    background-color: red;
+    scale: -0.90;
+}
