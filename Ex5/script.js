@@ -48,8 +48,8 @@ document.addEventListener('keydown', function(event) {
 // Quand on clique sur une case
 document.addEventListener('click', function(event) {
     
-    // Si la case sur laquelle on clique fait partie de la div .container
-    if (container.contains(event.target)){
+    // Si la case sur laquelle on clique fait partie de la div .container et qu'on a fini de créer les 225 cases
+    if (container.contains(event.target) && compteur == 225){
         // Changer le background color de la case à black
         event.target.style.backgroundColor = 'black';
     }
