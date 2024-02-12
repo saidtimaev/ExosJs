@@ -22,10 +22,10 @@
         </div>
     </div>    
     <script>
-        // On récupère l'élement qui nous intéresse
+        // On récupère l'élement qui nous intéresse cad le premier élément de .container
         const firstDiv = document.querySelector('.container .carre:first-child')
 
-        // On ajoute un écouteur d'évément lorsque on clique sur le premier carré et on lui ajoute la class active
+        // On ajoute un écouteur d'événement lorsque on clique sur le premier carré et on lui ajoute la class active
         firstDiv.addEventListener('click', () => {
             // Add et remove la classe au click
             firstDiv.classList.toggle('active')

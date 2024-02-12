@@ -33,6 +33,7 @@ body{
 
 }
 
+/* Code qui s'éxécute lorsque on click sur la 1ere div de .container */
 .container div.active:first-child{
     transform: rotate(360deg);
     background-color: red;
