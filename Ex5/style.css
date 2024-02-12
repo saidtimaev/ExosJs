@@ -1,0 +1,18 @@
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.container{
+
+    /* 15 * 62.5 pour qu'il y ait exactement 15 cases par ligne */
+    width: 937.5px;
+
+}
